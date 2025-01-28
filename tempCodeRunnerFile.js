@@ -1,0 +1,4 @@
+else{
+//     console.log(`${num}`);
+    
+// }

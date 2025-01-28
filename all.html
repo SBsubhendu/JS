@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylessheet" src="/all.css">
+</head>
+<body>
+    <div>
+        <form method="post" action="" onsubmit="valid(event);">
+            Name
+            <input type="text" name="name" id="name">
+            <label id="nerror" class="error"></label><br><br>
+            Date Of Birth:
+            <input type="date" name="dob" id="dob">
+            <label id="doberror" class="error"></label><br><br>
+            Email:
+            <input type="email" name="email" id="email">
+            <label id="emailerror" class="error"></label><br><br>
+            Mobile :
+            <input type="text" name="mob" id="mob">
+            <label id="moberror" class="error"></label><br><br>
+            Gender:
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            <br>
+            <label id="generror" class="error"></label><br>
+    
+            Department:
+            <select id="dept" name="dept">
+                <option value="HR">HR</option>
+                <option value="developer">Developer</option>
+                <option value="architecture">Architecture</option>
+            </select>
+            <label id="depterror" class="error"></label><br><br>
+    
+            Skill
+            <input type="checkbox" name="skill" value="java">java
+            <input type="checkbox" name="skill" value="python">python
+            <input type="checkbox" name="skill" value="js">js
+            <br>
+            <label id="skillerror" class="error"></label><br><br>
+            <input type="submit" name="submit" >
+        </form>
+
+    </div>
+    
+    <script src="all.js"></script>
+</body>
+</html>
